@@ -1,0 +1,15 @@
+.App-header {
+  display: flex;
+  font-size: large;
+  color: red;
+  height: 20vh;
+}
+.App-body {
+  border-top: 2px solid red;
+  border-bottom: 2px solid red;
+  height: 70vh;
+}
+.App-footer {
+  height: 10vh;
+  text-align: center;
+}
