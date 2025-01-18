@@ -13,9 +13,9 @@ export default function App() {
       </header>
       <main className="App-body">
         <p>Login to access the full dashboard</p>
-        <label id="email">Email</label>
+        <label htmlFor="email">Email</label>
         <input type="email" id="email" name="email" required/><br/>
-        <label id="password">Password</label>
+        <label htmlFor="password">Password</label>
         <input type="password" id="password" name="password" required/><br/>
         <button type="submit">OK</button>
       </main>
