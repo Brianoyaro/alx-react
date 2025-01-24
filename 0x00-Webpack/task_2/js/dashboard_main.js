@@ -1,11 +1,16 @@
 import $ from "jquery";
 import _ from "lodash";
+import "../css/main.css";
+import image from "../assets/holberton-logo.jpg";
+
 
 const body = $("body");
+//$(body).append("<img src="+ image + " alt='ALX Logo' id='logo' />");
+$(body).append("<div id='logo'></div>");
 $(body).append("<p>ALX Dashboard</p>");
 $(body).append("<p>Dashboard data for the students</p>");
-$(body).append("<button id='btn-click'>Click here to get started</button>");
-$(body).append("<p id='count'></p>");
+$(body).append("<button id='btn-click' class='custom-span'>Click here to get started</button>");
+$(body).append("<p id='count' class='custom-span'></p>");
 $(body).append("<p>Copyright - ALX</p>");
 
 function updateCounter() {
